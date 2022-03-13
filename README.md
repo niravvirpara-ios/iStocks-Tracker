@@ -17,8 +17,7 @@ A iStocks Tracker iOS Swift Project to fetch a real time Stocks price in Swift 5
   
 ## ScreenShots
 
- ![iStocks_Tracker_1](https://user-images.githubusercontent.com/28728064/158061284-a7bb2ddf-c7ba-4bab-91d0-39afddd828f8.jpg)
-
+![iStocks_Tracker_1](https://user-images.githubusercontent.com/28728064/158061284-a7bb2ddf-c7ba-4bab-91d0-39afddd828f8.jpg)
 ![iStocks_Tracker_2](https://user-images.githubusercontent.com/28728064/158061287-c86f2449-1b94-4506-9b43-d6180ec27083.jpg)
 
  
