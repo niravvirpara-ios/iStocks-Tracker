@@ -3,27 +3,71 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04687D4B3AAC8EAC37950633 /* Pods_StockMarketApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DDCFF739C2D00DA10F7136 /* Pods_StockMarketApp.framework */; };
+		F206D3602712125200646A88 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F206D35F2712125200646A88 /* Constants.swift */; };
+		F237B0B22752048300604C26 /* MarketDataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237B0B12752048300604C26 /* MarketDataResponse.swift */; };
+		F23A515627086B0D001DEB5A /* TopNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A515527086B0D001DEB5A /* TopNewsViewController.swift */; };
+		F23A515C270889D3001DEB5A /* TopNewsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23A515B270889D3001DEB5A /* TopNewsHeaderView.swift */; };
+		F23C678E26AC259D00C59998 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C678D26AC259D00C59998 /* APICaller.swift */; };
+		F23C679126AC25CA00C59998 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C679026AC25CA00C59998 /* PersistanceManager.swift */; };
+		F25B3C7026AC54890003D423 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B3C6F26AC54890003D423 /* Extension.swift */; };
+		F27EC65E27DCE83E0055C6DB /* NewsStoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27EC65C27DCE83D0055C6DB /* NewsStoryTableViewCell.xib */; };
+		F27EC65F27DCE83E0055C6DB /* NewsStoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27EC65D27DCE83E0055C6DB /* NewsStoryTableViewCell.swift */; };
+		F2A43F6127647952002E6349 /* MetricCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A43F6027647952002E6349 /* MetricCollectionViewCell.swift */; };
+		F2A4AFAF2711C43100B2E63C /* NewsStoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A4AFAE2711C43100B2E63C /* NewsStoriesModel.swift */; };
+		F2D138BD2763D80800B1A690 /* FinancialMetricsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D138BC2763D80800B1A690 /* FinancialMetricsResponse.swift */; };
+		F2D138C02763DE9300B1A690 /* StockDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D138BF2763DE9300B1A690 /* StockDetailHeaderView.swift */; };
+		F2D6383C26FF2A9D00BAB418 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6383A26FF2A9D00BAB418 /* SearchResultTableViewCell.swift */; };
+		F2D6383D26FF2A9D00BAB418 /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D6383B26FF2A9D00BAB418 /* SearchResultTableViewCell.xib */; };
+		F2D6384626FF688000BAB418 /* SearchSymbolResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D6384526FF688000BAB418 /* SearchSymbolResponse.swift */; };
 		F2DDEF9926ABED6E0017BED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDEF9826ABED6E0017BED0 /* AppDelegate.swift */; };
 		F2DDEF9B26ABED6E0017BED0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDEF9A26ABED6E0017BED0 /* SceneDelegate.swift */; };
-		F2DDEF9D26ABED6E0017BED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDEF9C26ABED6E0017BED0 /* ViewController.swift */; };
+		F2DDEF9D26ABED6E0017BED0 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDEF9C26ABED6E0017BED0 /* WatchListViewController.swift */; };
 		F2DDEFA026ABED6E0017BED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DDEF9E26ABED6E0017BED0 /* Main.storyboard */; };
 		F2DDEFA226ABED6F0017BED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2DDEFA126ABED6F0017BED0 /* Assets.xcassets */; };
 		F2DDEFA526ABED6F0017BED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2DDEFA326ABED6F0017BED0 /* LaunchScreen.storyboard */; };
+		F2DDEFB826ABF6750017BED0 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDEFB726ABF6750017BED0 /* SearchResultsViewController.swift */; };
+		F2DDEFBB26ABF6A00017BED0 /* StocksDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDEFBA26ABF6A00017BED0 /* StocksDetailsViewController.swift */; };
+		F2E30EE5275266D300B318AD /* WatchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E30EE4275266D300B318AD /* WatchListTableViewCell.swift */; };
+		F2E30EE827526B7A00B318AD /* StockChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E30EE727526B7A00B318AD /* StockChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0918611EC2E27132A19CC314 /* Pods-StockMarketApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockMarketApp.release.xcconfig"; path = "Target Support Files/Pods-StockMarketApp/Pods-StockMarketApp.release.xcconfig"; sourceTree = "<group>"; };
+		16DDCFF739C2D00DA10F7136 /* Pods_StockMarketApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockMarketApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BE55295C4E0726493A61D5A /* Pods-StockMarketApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockMarketApp.debug.xcconfig"; path = "Target Support Files/Pods-StockMarketApp/Pods-StockMarketApp.debug.xcconfig"; sourceTree = "<group>"; };
+		F206D35F2712125200646A88 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F237B0B12752048300604C26 /* MarketDataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataResponse.swift; sourceTree = "<group>"; };
+		F23A515527086B0D001DEB5A /* TopNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsViewController.swift; sourceTree = "<group>"; };
+		F23A515B270889D3001DEB5A /* TopNewsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNewsHeaderView.swift; sourceTree = "<group>"; };
+		F23C678D26AC259D00C59998 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		F23C679026AC25CA00C59998 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		F25B3C6F26AC54890003D423 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		F27EC65C27DCE83D0055C6DB /* NewsStoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsStoryTableViewCell.xib; sourceTree = "<group>"; };
+		F27EC65D27DCE83E0055C6DB /* NewsStoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsStoryTableViewCell.swift; sourceTree = "<group>"; };
+		F2A43F6027647952002E6349 /* MetricCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricCollectionViewCell.swift; sourceTree = "<group>"; };
+		F2A4AFAE2711C43100B2E63C /* NewsStoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsStoriesModel.swift; sourceTree = "<group>"; };
+		F2D138BC2763D80800B1A690 /* FinancialMetricsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialMetricsResponse.swift; sourceTree = "<group>"; };
+		F2D138BF2763DE9300B1A690 /* StockDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailHeaderView.swift; sourceTree = "<group>"; };
+		F2D6383A26FF2A9D00BAB418 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		F2D6383B26FF2A9D00BAB418 /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		F2D6384526FF688000BAB418 /* SearchSymbolResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSymbolResponse.swift; sourceTree = "<group>"; };
 		F2DDEF9526ABED6E0017BED0 /* StockMarketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockMarketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DDEF9826ABED6E0017BED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2DDEF9A26ABED6E0017BED0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F2DDEF9C26ABED6E0017BED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2DDEF9C26ABED6E0017BED0 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
 		F2DDEF9F26ABED6E0017BED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2DDEFA126ABED6F0017BED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2DDEFA426ABED6F0017BED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2DDEFA626ABED6F0017BED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2DDEFB726ABF6750017BED0 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		F2DDEFBA26ABF6A00017BED0 /* StocksDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksDetailsViewController.swift; sourceTree = "<group>"; };
+		F2E30EE4275266D300B318AD /* WatchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTableViewCell.swift; sourceTree = "<group>"; };
+		F2E30EE727526B7A00B318AD /* StockChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04687D4B3AAC8EAC37950633 /* Pods_StockMarketApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1C27228AB8391CA20F7508B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16DDCFF739C2D00DA10F7136 /* Pods_StockMarketApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F27EC65B27DCE8260055C6DB /* News Story TableView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F27EC65D27DCE83E0055C6DB /* NewsStoryTableViewCell.swift */,
+				F27EC65C27DCE83D0055C6DB /* NewsStoryTableViewCell.xib */,
+			);
+			path = "News Story TableView Cell";
+			sourceTree = "<group>";
+		};
+		F2D6383F26FF2AA600BAB418 /* SearchResultCell */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6383A26FF2A9D00BAB418 /* SearchResultTableViewCell.swift */,
+				F2D6383B26FF2A9D00BAB418 /* SearchResultTableViewCell.xib */,
+			);
+			path = SearchResultCell;
+			sourceTree = "<group>";
+		};
 		F2DDEF8C26ABED6D0017BED0 = {
 			isa = PBXGroup;
 			children = (
 				F2DDEF9726ABED6E0017BED0 /* StockMarketApp */,
 				F2DDEF9626ABED6E0017BED0 /* Products */,
+				FA44B4A00868F85C6F82DC08 /* Pods */,
+				D1C27228AB8391CA20F7508B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +129,82 @@
 		F2DDEF9726ABED6E0017BED0 /* StockMarketApp */ = {
 			isa = PBXGroup;
 			children = (
-				F2DDEF9826ABED6E0017BED0 /* AppDelegate.swift */,
-				F2DDEF9A26ABED6E0017BED0 /* SceneDelegate.swift */,
-				F2DDEF9C26ABED6E0017BED0 /* ViewController.swift */,
-				F2DDEF9E26ABED6E0017BED0 /* Main.storyboard */,
-				F2DDEFA126ABED6F0017BED0 /* Assets.xcassets */,
-				F2DDEFA326ABED6F0017BED0 /* LaunchScreen.storyboard */,
+				F2DDEFB126ABF0870017BED0 /* Other */,
+				F2DDEFB026ABF05B0017BED0 /* Managers */,
+				F2DDEFAF26ABF0510017BED0 /* Controllers */,
+				F2DDEFAE26ABF04B0017BED0 /* Views */,
+				F2DDEFAD26ABF0450017BED0 /* Models */,
 				F2DDEFA626ABED6F0017BED0 /* Info.plist */,
 			);
 			path = StockMarketApp;
+			sourceTree = "<group>";
+		};
+		F2DDEFAD26ABF0450017BED0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2D6384526FF688000BAB418 /* SearchSymbolResponse.swift */,
+				F2A4AFAE2711C43100B2E63C /* NewsStoriesModel.swift */,
+				F237B0B12752048300604C26 /* MarketDataResponse.swift */,
+				F2D138BC2763D80800B1A690 /* FinancialMetricsResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F2DDEFAE26ABF04B0017BED0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2DDEFA326ABED6F0017BED0 /* LaunchScreen.storyboard */,
+				F2DDEF9E26ABED6E0017BED0 /* Main.storyboard */,
+				F23A515B270889D3001DEB5A /* TopNewsHeaderView.swift */,
+				F2E30EE4275266D300B318AD /* WatchListTableViewCell.swift */,
+				F2E30EE727526B7A00B318AD /* StockChartView.swift */,
+				F2D138BF2763DE9300B1A690 /* StockDetailHeaderView.swift */,
+				F2A43F6027647952002E6349 /* MetricCollectionViewCell.swift */,
+				F2D6383F26FF2AA600BAB418 /* SearchResultCell */,
+				F27EC65B27DCE8260055C6DB /* News Story TableView Cell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2DDEFAF26ABF0510017BED0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2DDEF9C26ABED6E0017BED0 /* WatchListViewController.swift */,
+				F2DDEFB726ABF6750017BED0 /* SearchResultsViewController.swift */,
+				F2DDEFBA26ABF6A00017BED0 /* StocksDetailsViewController.swift */,
+				F23A515527086B0D001DEB5A /* TopNewsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F2DDEFB026ABF05B0017BED0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F23C678D26AC259D00C59998 /* APICaller.swift */,
+				F23C679026AC25CA00C59998 /* PersistanceManager.swift */,
+				F206D35F2712125200646A88 /* Constants.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F2DDEFB126ABF0870017BED0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F2DDEFA126ABED6F0017BED0 /* Assets.xcassets */,
+				F2DDEF9826ABED6E0017BED0 /* AppDelegate.swift */,
+				F2DDEF9A26ABED6E0017BED0 /* SceneDelegate.swift */,
+				F25B3C6F26AC54890003D423 /* Extension.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FA44B4A00868F85C6F82DC08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BE55295C4E0726493A61D5A /* Pods-StockMarketApp.debug.xcconfig */,
+				0918611EC2E27132A19CC314 /* Pods-StockMarketApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2DDEFA926ABED6F0017BED0 /* Build configuration list for PBXNativeTarget "StockMarketApp" */;
 			buildPhases = (
+				C0214DB28BE66B38AC917E6E /* [CP] Check Pods Manifest.lock */,
 				F2DDEF9126ABED6D0017BED0 /* Sources */,
 				F2DDEF9226ABED6D0017BED0 /* Frameworks */,
 				F2DDEF9326ABED6D0017BED0 /* Resources */,
+				9588AAC45DC12FA35BE67D02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,22 +266,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27EC65E27DCE83E0055C6DB /* NewsStoryTableViewCell.xib in Resources */,
 				F2DDEFA526ABED6F0017BED0 /* LaunchScreen.storyboard in Resources */,
 				F2DDEFA226ABED6F0017BED0 /* Assets.xcassets in Resources */,
+				F2D6383D26FF2A9D00BAB418 /* SearchResultTableViewCell.xib in Resources */,
 				F2DDEFA026ABED6E0017BED0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9588AAC45DC12FA35BE67D02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockMarketApp/Pods-StockMarketApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StockMarketApp/Pods-StockMarketApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockMarketApp/Pods-StockMarketApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0214DB28BE66B38AC917E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StockMarketApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2DDEF9126ABED6D0017BED0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DDEF9D26ABED6E0017BED0 /* ViewController.swift in Sources */,
+				F2A43F6127647952002E6349 /* MetricCollectionViewCell.swift in Sources */,
+				F2E30EE5275266D300B318AD /* WatchListTableViewCell.swift in Sources */,
+				F23A515627086B0D001DEB5A /* TopNewsViewController.swift in Sources */,
+				F206D3602712125200646A88 /* Constants.swift in Sources */,
+				F23A515C270889D3001DEB5A /* TopNewsHeaderView.swift in Sources */,
+				F2D6383C26FF2A9D00BAB418 /* SearchResultTableViewCell.swift in Sources */,
+				F2DDEF9D26ABED6E0017BED0 /* WatchListViewController.swift in Sources */,
+				F27EC65F27DCE83E0055C6DB /* NewsStoryTableViewCell.swift in Sources */,
 				F2DDEF9926ABED6E0017BED0 /* AppDelegate.swift in Sources */,
+				F2D138C02763DE9300B1A690 /* StockDetailHeaderView.swift in Sources */,
+				F2D138BD2763D80800B1A690 /* FinancialMetricsResponse.swift in Sources */,
+				F2E30EE827526B7A00B318AD /* StockChartView.swift in Sources */,
+				F2DDEFBB26ABF6A00017BED0 /* StocksDetailsViewController.swift in Sources */,
+				F2A4AFAF2711C43100B2E63C /* NewsStoriesModel.swift in Sources */,
+				F2D6384626FF688000BAB418 /* SearchSymbolResponse.swift in Sources */,
+				F237B0B22752048300604C26 /* MarketDataResponse.swift in Sources */,
+				F23C678E26AC259D00C59998 /* APICaller.swift in Sources */,
+				F25B3C7026AC54890003D423 /* Extension.swift in Sources */,
 				F2DDEF9B26ABED6E0017BED0 /* SceneDelegate.swift in Sources */,
+				F2DDEFB826ABF6750017BED0 /* SearchResultsViewController.swift in Sources */,
+				F23C679126AC25CA00C59998 /* PersistanceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,39 +487,43 @@
 		};
 		F2DDEFAA26ABED6F0017BED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BE55295C4E0726493A61D5A /* Pods-StockMarketApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 535ZECU935;
 				INFOPLIST_FILE = StockMarketApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.StockMarketApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.iStocksTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F2DDEFAB26ABED6F0017BED0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0918611EC2E27132A19CC314 /* Pods-StockMarketApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 535ZECU935;
 				INFOPLIST_FILE = StockMarketApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.StockMarketApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nirav.iStocksTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
